@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
 
-:root{
+:root {
     --firstColor: #313535;
     --secondColor: #ffffff;
+    --thirdColor: #000000;
+    --bgFirstColor: #757979;
+    --bgSecondoColor: #4C4D4D;
 }
+
+@keyframes moveHorizontal {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(1.25em);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
 body {
     margin: 0;
-    background: #d6e0e0; 
+    background: var(--bgFirstColor);
     font-family: 'Sofia Sans', sans-serif;
 }
 
@@ -16,10 +31,16 @@ html {
     height: 100%;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
 .header-container {
     text-align: center;
     margin: auto;
-    background-color: var(--firstColor); 
+    background-color: var(--firstColor);
 }
 
 
@@ -30,7 +51,7 @@ html {
 
 #hamburguer {
     background-color: var(--secondColor);
-    color: var(--firstColor); 
+    color: var(--firstColor);
     display: block;
     text-align: center;
     padding: .3em;
@@ -39,7 +60,7 @@ html {
 }
 
 .header-nav {
-    background-color: var(--firstColor); 
+    background-color: var(--firstColor);
 }
 
 .header-nav ul {
@@ -67,15 +88,47 @@ ul {
 }
 
 .header-nav a:hover {
-    background: radial-gradient(circle, rgba(79,76,77,1) 0%, rgba(234,238,244,1) 100%);
+    background: radial-gradient(circle, rgba(79, 76, 77, 1) 0%, rgba(234, 238, 244, 1) 100%);
 }
 
-main {
-    display: flex;
-    justify-content: center;
+.container-img {
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
 
-@media screen and (min-width: 48em) {
+.container-img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.Name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    color: var(--thirdColor);
+    z-index: 1;
+    font-size: 1em;
+    animation: moveHorizontal 3s infinite;
+}
+
+.container-sobreMim {
+    border: 2px solid #4C4D4D;
+    background-color: var(--bgSecondoColor);
+    color: white;
+    padding: 1em;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 36em) {
     #hamburguer {
         display: none;
     }
@@ -84,7 +137,7 @@ main {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: var(--firstColor); 
+        background-color: var(--firstColor);
     }
 
     .profilePhoto {
@@ -106,4 +159,23 @@ main {
         border-radius: 5px;
     }
 
+    .container-img {
+        width: 100%;
+    }
+
+    .Name {
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (min-width: 48em) {
+
+    .Name {
+        font-size: 3em;
+    }
+
+    .container-img {
+        width: 100%;
+    }
 }

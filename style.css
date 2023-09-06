@@ -10,15 +10,17 @@
 
 @keyframes moveHorizontal {
     0% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
+
     50% {
-      transform: translateX(1.25em);
+        transform: translateX(1.25em);
     }
+
     100% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
-  }
+}
 
 body {
     margin: 0;
@@ -47,6 +49,7 @@ main {
 .profilePhoto {
     width: 5em;
     border-radius: 50%;
+    padding-top: .5em;
 }
 
 #hamburguer {
@@ -97,7 +100,9 @@ ul {
     text-align: center;
 }
 
-.container-img img {
+.container-img img,
+.container-ElasNaTech img,
+.container-desafios img {
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -115,7 +120,8 @@ ul {
     animation: moveHorizontal 3s infinite;
 }
 
-.container-sobreMim {
+.container-sobreMim,
+.container-desafios {
     border: 2px solid #4C4D4D;
     background-color: var(--bgSecondoColor);
     color: white;
@@ -125,8 +131,16 @@ ul {
 h1,
 p {
     text-align: center;
+    padding: .4em;
 }
 
+.container-ElasNaTech,
+.container-conquistas {
+    border: 2px solid #757979;
+    background-color: var(--bgFirstColor);
+    color: var(--firstColor);
+    padding: 1em;
+}
 
 @media screen and (min-width: 36em) {
     #hamburguer {
@@ -160,7 +174,24 @@ p {
     }
 
     .container-img {
+        position: relative;
         width: 100%;
+        text-align: center;
+    }
+
+    .container-img img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container-ElasNaTech img,
+    .container-desafios img {
+        display: block;
+        margin: 0 auto;
+        width: 20%;
+        max-width: 20%;
+        height: auto;
     }
 
     .Name {
@@ -176,6 +207,23 @@ p {
     }
 
     .container-img {
+        position: relative;
         width: 100%;
+        text-align: center;
+    }
+
+    .container-img img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container-ElasNaTech img,
+     .container-desafios img {
+        display: block;
+        margin: 0 auto;
+        width: 20%;
+        max-width: 20%;
+        height: auto;
     }
 }

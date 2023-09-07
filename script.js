@@ -35,3 +35,5 @@ prevButton.addEventListener("click", prevSlide);
 nextButton.addEventListener("click", nextSlide);
 
 showSlide(currentIndex);
+
+

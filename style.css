@@ -100,23 +100,31 @@ ul {
     text-align: center;
 }
 
-.container-img img,
-.container-ElasNaTech img,
-.container-desafios img {
+.container-img img {
     width: 100%;
     max-width: 100%;
     height: auto;
 }
 
-.container-conquistas {
+.container-conquistas,
+.container-desafios,
+.container-ElasNaTech {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.container-conquistas img {
-    width: 60%;
+.container-conquistas img,
+.container-desafios img {
+    width: 40%;
+    max-width: 80%;
+    height: 40%;
+    
+}
+
+.container-ElasNaTech img {
+    width: 70%;
     max-width: 80%;
     height: 60%;
     
@@ -124,11 +132,11 @@ ul {
 
 .Name {
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 5px 10px;
-    color: var(--thirdColor);
+    color: var(--secondColor);
     z-index: 1;
     font-size: 1em;
     animation: moveHorizontal 3s infinite;
@@ -155,6 +163,57 @@ p {
     background-color: var(--bgFirstColor);
     color: var(--firstColor);
     padding: 1em;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 18.75em;
+    margin: 0 auto;
+    margin-top: 1.5em;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    transition: transform 0.3s ease;
+    line-height: 1;
+}
+
+.carousel-slide i {
+    margin-left: 4em;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prevSlide {
+    left: 0;
+    color: var(--secondColor);
+    
+}
+
+#nextSlide {
+    right: 0;
+    color: var(--secondColor);
 }
 
 @media screen and (min-width: 36em) {

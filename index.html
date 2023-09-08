@@ -17,7 +17,7 @@
         <figure>
             <img src="./assets/nino.png" alt="imagem Ninoska" class="profilePhoto">
         </figure>
-        <span id="hamburguer" class="material-symbols-outlined">
+        <span id="hamburger" class="material-symbols-outlined">
             menu
         </span>
         <nav id="items_menu" class="header-nav">
@@ -136,7 +136,8 @@
                             <span><i class="fa-solid fa-laptop"></i></span>
                         </div>
                     </section>
-                    <button class="carousel-button prev" id="prevSlide"><</button>
+                    <button class="carousel-button prev" id="prevSlide">
+                        < </button>
                             <button class="carousel-button next" id="nextSlide">></button>
                 </section>
             </section>
@@ -172,27 +173,51 @@
                 <section class="projeto">
                     <img src="./assets/P9.png" alt="">
                 </section>
+
+                <div id="modalContainer" class="modal-container">
+                    <div class="modal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <h2></h2>
+                        <p></p>
+                        <a></a>
+                    </div>
+                </div>
             </section>
 
 
             <section class="container-depoimento" id="depoimento">
                 <h1 class="title-depoimento">Depoimento</h1>
-               <p>Durante meu aprendizado na Elas na Tech, tive a oportunidade de mergulhar em diversos temas, alguns dos quais abordei do zero, como Python, enquanto outros consegui fortalecer (Javascript, html, css). Cada desafio que enfrentei revelou-se realmente fascinante e gostaria de compartilhar  um vídeo do projeto que mais gostei de criar.</p>
-               <video controls autoplay muted loop>
-                <source src="./assets/VideoProjeto.mp4" type="video/mp4">
-            </video>
+                <p>Durante meu aprendizado na Elas na Tech, tive a oportunidade de mergulhar em diversos temas, alguns
+                    dos quais abordei do zero, como Python, enquanto outros consegui fortalecer (Javascript, html, css).
+                    Cada desafio que enfrentei revelou-se realmente fascinante e gostaria de compartilhar um vídeo do
+                    projeto que mais gostei de criar.</p>
+                <video controls autoplay muted loop>
+                    <source src="./assets/VideoProjeto.mp4" type="video/mp4">
+                </video>
             </section>
 
         </section>
     </main>
 
-<footer id="contato">
-    <section class="footer-content">
-        <a href="https://www.linkedin.com/in/ninoska-contreras-86b075129" target="_blank">
-            <span class="name">Ninoska Contreras</span>
-          </a>
-    </section>
-</footer>
+    <footer id="contato">
+        <section class="footer-content">
+            <button>
+                <a href="https://www.linkedin.com/in/ninoska-contreras-86b075129" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </button>
+            <button>
+                <a href="https://github.com/NiEl0503" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </button>
+            <button>
+                <a href="mailto:ncontreraskanan@gmail.com" target="_blank">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </button>
+        </section>
+    </footer>
     <script type="module" src="script.js"></script>
 </body>
 

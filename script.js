@@ -1,4 +1,4 @@
-//menu hamburger
+//menu hamburguer
 let hamburger = document.getElementById('hamburger');
 let itemsMenu = document.querySelector('.header-nav ul');
 
@@ -103,7 +103,7 @@ function openModal(index) {
     modal.querySelector('p').textContent = project.Descrição;
     const LinkGithubElement = modal.querySelector('a');
     LinkGithubElement.href = project.LinkGithub;
-    LinkGithubElement.textContent = 'Link para GitHub';
+    LinkGithubElement.textContent = 'Pressione-me: Link para GitHub';
 }
 
 imagesProject.forEach((imagen, index) => {

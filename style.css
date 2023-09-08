@@ -112,7 +112,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid #4C4D4D;
+    border: 0.125em solid #4C4D4D;
     background-color: var(--bgSecondoColor);
     color: white;
     padding: 1em;
@@ -138,7 +138,7 @@ ul {
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 5px 10px;
+    padding: 0.313em 0.625em;
     color: var(--secondColor);
     z-index: 1;
     font-size: 1em;
@@ -147,7 +147,7 @@ ul {
 
 .container-sobreMim,
 .container-aprendizado {
-    border: 2px solid #4C4D4D;
+    border: 0.125em solid #4C4D4D;
     background-color: var(--bgSecondoColor);
     color: white;
     padding: 1em;
@@ -159,13 +159,14 @@ p {
     padding: .4em;
 }
 
-.title-projetos {
+.title-projetos,
+.projeto-paragrafo {
     color: var(--firstColor);
 }
 
 .container-ElasNaTech,
 .container-conquistas {
-    border: 2px solid #757979;
+    border: 0.125em solid #757979;
     background-color: var(--bgFirstColor);
     color: var(--firstColor);
     padding: 1em;
@@ -188,7 +189,7 @@ p {
     border-radius: 10px;
 }
 .container-depoimento {
-    border: 2px solid #4C4D4D;
+    border: 0.125em solid #4C4D4D;
     background-color: var(--bgSecondoColor);
     color: white;
     padding: 1em;
@@ -255,6 +256,47 @@ p {
     color: var(--secondColor);
 }
 
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container a {
+    text-decoration: none;
+    color: var(--secondColor);
+}
+
+.modal-container a:hover {
+    text-decoration: none;
+    color: var(--bgFirstColor);
+}
+
+.modal {
+    background-color: var(--firstColor);
+    color: var(--secondColor);
+    padding: 1.25em;
+    border-radius: 5px;
+    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0.625em;
+    right: 0.625em;
+    cursor: pointer;
+    width: 2em;
+    font-size: 2em;
+}
+
 .footer-content {
     display: flex;
     justify-content: center;
@@ -270,6 +312,7 @@ p {
     height: 3em;
     background-color: var(--bgFirstColor);
     font-size: 1.5em;
+    color: var(--firstColor);
 }
 
 .footer-content button {
@@ -280,37 +323,6 @@ p {
     background-color: var(--bgFirstColor);
     border: .5em solid #757979;;
 }
-
-/* Estilos para los modales */
-.modal-container {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    justify-content: center;
-    align-items: center;
-}
-
-.modal {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    position: relative;
-}
-
-.close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-}
-
-
 
 @media screen and (min-width: 36em) {
     #hamburger {

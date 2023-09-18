@@ -49,7 +49,7 @@ main {
 .profilePhoto {
     width: 5em;
     border-radius: 50%;
-    padding-top: .5em;
+    padding-top: .3em;
 }
 
 #hamburger {
@@ -106,14 +106,13 @@ ul {
     height: auto;
 }
 
-
 .container-desafios {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border: 0.125em solid #4C4D4D;
-    background-color: var(--bgSecondoColor);
+    background-color: var(--firstColor);
     color: white;
     padding: 1em;
 }
@@ -123,6 +122,7 @@ ul {
     width: 40%;
     max-width: 80%;
     height: 40%;
+    border-radius: 5px;
 
 }
 
@@ -148,7 +148,7 @@ ul {
 .container-sobreMim,
 .container-aprendizado {
     border: 0.125em solid #4C4D4D;
-    background-color: var(--bgSecondoColor);
+    background-color: var(--firstColor);
     color: white;
     padding: 1em;
 }
@@ -190,7 +190,7 @@ p {
 }
 .container-depoimento {
     border: 0.125em solid #4C4D4D;
-    background-color: var(--bgSecondoColor);
+    background-color: var(--firstColor);
     color: white;
     padding: 1em;
     justify-content: center;
@@ -321,7 +321,7 @@ p {
     width: 3em;
     height: 3em;
     background-color: var(--bgFirstColor);
-    border: .5em solid #757979;;
+    border: .5em solid #757979;
 }
 
 @media screen and (min-width: 36em) {
@@ -361,11 +361,7 @@ p {
         text-align: center;
     }
 
-    .container-img img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-    }
+  
 
     .container-ElasNaTech img,
     .container-desafios img,
@@ -375,7 +371,7 @@ p {
         width: 20%;
         max-width: 20%;
         height: auto;
-    }
+    } 
 
     .Name {
         font-size: 2em;
@@ -394,11 +390,6 @@ p {
         text-align: center;
     }
 
-    .container-img img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-    }
 
     .container-ElasNaTech img,
     .container-desafios img,

@@ -43,7 +43,7 @@ showSlide(currentIndex);
 const projects = [
   {
       Nome: 'Projeto 1 - ElasNaTech 🚀',
-      Descrição: 'Página web criada para praticar Html e Css. HTML (HyperText Markup Language): HTML é uma linguagem de marcação usada para criar a estrutura e o conteúdo de uma página da web.  CSS (Cascading Style Sheets): CSS é uma linguagem de estilo usada para controlar a apresentação e o design de uma página da web.',
+      Descrição: 'Neste projeto, criei uma página web completa para aprimorar minhas habilidades em HTML (HyperText Markup Language) e CSS (Cascading Style Sheets). Para este projeto, utilizei HTML para criar a estrutura e o conteúdo da página web. Utilizei tags HTML para definir cabeçalhos, parágrafos, links e elementos de formulário. Além disso, utilizei CSS para estilizar a página web e controlar sua aparência visual. Isso incluiu a definição de cores, fontes, margens, preenchimentos e layouts.',
       LinkGithub: 'https://github.com/NiEl0503/Desafio6-ElasNaTech',
   },
   {
@@ -58,12 +58,12 @@ const projects = [
 },
 {
   Nome: 'Projeto 4 - Azul 💙',
-  Descrição: 'Mundo Azul é uma página web criada para praticar responsividade, como a tela é reduzida os cartões são adaptados de forma que fiquem em uma única coluna. Design responsivo: design Responsivo é uma técnica de estruturação HTML e CSS, que consiste em adaptar o site ao browser do usuário sem que seja necessário definir várias folhas de estilos especíificaspara cada resolução, ou seja, é um tipo de design onde o layout fica fluído e variante de acordo com a resolução do usuário.',
+  Descrição: 'Mundo Azul é uma página web criada para praticar responsividade, como a tela é reduzida os cartões são adaptados de forma que fiquem em uma única coluna. Layout Adaptável: A página "Mundo Azul" utiliza um layout adaptável que se ajusta automaticamente ao tamanho da tela do usuário. À medida que a tela é reduzida, os cartões de conteúdo são rearranjados de forma a ocupar uma única coluna, garantindo que o conteúdo seja legível e acessível em dispositivos móveis, tablets e desktops. Design Responsivo: O design responsivo é uma técnica de estruturação HTML e CSS que permite que o site se adapte ao navegador do usuário sem a necessidade de várias folhas de estilo específicas para cada resolução. O layout da página "Mundo Azul" permanece fluído e variável de acordo com a resolução do dispositivo, proporcionando uma experiência consistente e agradável ao usuário. O projeto "Mundo Azul" utiliza HTML e CSS para criar um layout responsivo e flexível. O HTML é estruturado de forma a permitir a adaptação do conteúdo, enquanto o CSS aplica estilos e formatação que garantem uma apresentação atraente em diferentes dispositivos.',
   LinkGithub: 'https://github.com/NiEl0503/Azul-Desafio9-ElasNaTech',
 },
 {
   Nome: 'Projeto 5 - Fast & Furious 🏎️',
-  Descrição: 'Durante a concretização deste desafio aprofundámos e reforçámos o que aprendemos sobre responsividade e também aprendemos como inserir vídeos nos nossos sites. Optei por fazer um site para um dos meus filmes favoritos (velozes e furiosos) aqui vocês podem ver o trailer do último filme dessa saga. Espero que vocês gostem desse filme tanto quanto eu gosto.',
+  Descrição: 'Durante a concretização deste desafio aprofundámos e reforçámos o que aprendemos sobre responsividade e também aprendemos como inserir vídeos nos nossos sites. Optei por fazer um site para um dos meus filmes favoritos (velozes e furiosos) aqui vocês podem ver o trailer do último filme dessa saga. Espero que vocês gostem desse filme tanto quanto eu gosto. O projeto utilizou HTML, CSS e JS',
   LinkGithub: 'https://github.com/NiEl0503/Desafio10-ElasnaTech',
 },
 {
@@ -73,7 +73,7 @@ const projects = [
 },
 {
   Nome: 'Projeto 7 - Calculadora 🖩',
-  Descrição: 'Neste projeto criei uma calculadora usando html, css e javascript',
+  Descrição: 'Neste projeto, desenvolvi uma calculadora web interativa para resolver problemas matemáticos com facilidade. Para desenvolver a calculadora, utilizei HTML para criar a estrutura da interface, CSS para estilizar a calculadora e torná-la visualmente atraente, e JavaScript para implementar as funcionalidades de cálculo. ',
   LinkGithub: 'https://github.com/NiEl0503/Desafio12-ElasNaTech',
 },
 {
@@ -83,7 +83,7 @@ const projects = [
 },
 {
   Nome: 'Projeto 9 - Harry Potter 💻',
-  Descrição: 'O objetivo deste desafio foi conhecer a biblioteca Bootstrap e criar um carrossel de imagens baseado no tema que mais nos agradou. Minha escolha foi Harry Potter, filme amplamente conhecido e apreciado por sua trama fascinante. Bootstrap: bootstrap é uma ferramenta valiosa para desenvolvedores web que desejam criar sites e aplicativos móveis bonitos e responsivos com mais rapidez e eficiência.',
+  Descrição: 'O objetivo deste desafio foi explorar a biblioteca Bootstrap e aplicar seus recursos para criar um carrossel de imagens responsivo baseado em um tema de nossa escolha. Optei por dedicar o projeto ao mundo de "Harry Potter", uma saga amplamente reconhecida e apreciada por sua trama cativante. Bootstrap: bootstrap é uma ferramenta valiosa para desenvolvedores web que desejam criar sites e aplicativos móveis bonitos e responsivos com mais rapidez e eficiência.',
   LinkGithub: 'https://github.com/NiEl0503/Harry-Desafio14-ElasNaTech',
 },
 ];

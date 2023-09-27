@@ -324,6 +324,14 @@ p {
     border: .5em solid #757979;
 }
 
+
+.logo-elas img {
+    filter: brightness(0) invert(1);
+    width: 5em;
+  height: auto;
+}
+
+
 @media screen and (min-width: 36em) {
     #hamburger {
         display: none;

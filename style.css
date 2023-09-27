@@ -369,8 +369,6 @@ p {
         text-align: center;
     }
 
-  
-
     .container-ElasNaTech img,
     .container-desafios img,
     .container-conquistas img {
@@ -388,8 +386,13 @@ p {
 
 @media screen and (min-width: 48em) {
 
+    .profilePhoto {
+        margin-left: 2em;
+        width: 10em;
+    }
+
     .Name {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .container-img {
@@ -419,8 +422,8 @@ p {
     }
 
     .container-projetos img {
-        height: 15em;
-        width: 15em;
+        height: 13em;
+        width: 13em;
         border-radius: 10px;
     }
 }
